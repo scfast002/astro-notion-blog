@@ -1,0 +1,20 @@
+name: Scheduled Cloudflare Pages Deploy # Workflow 的名字，显示在 Actions 标签页
+
+on:
+  schedule:
+    # 使用 cron 语法设置定时任务
+    # 下面的 '0 4 * * *' 表示每天的 UTC 时间 凌晨4点 执行
+    # 你可以根据需要修改时间
+    # 例如 '0 8 * * *' 表示每天 UTC 时间 上午8点
+    # 中国标准时间 (CST, UTC+8) 转换: UTC 4点 = CST 中午12点; UTC 8点 = CST 下午4点
+    - cron: '0 4 * * *' # 这里设置为 UTC 4点 (北京时间中午12点)
+
+  workflow_dispatch: # 允许你从 GitHub Actions 页面手动触发此 workflow，方便测试
+
+jobs:
+  trigger_deploy: # Job 的 ID
+    runs-on: ubuntu-latest # 指定运行环境
+    steps:
+      - name: Trigger Cloudflare Deploy Hook # 步骤的名字
+        # 使用 curl 命令向存储在 GitHub Secrets 中的 Deploy Hook URL 发送 POST 请求
+        run: curl -X POST ${{ secrets.CLOUDFLARE_DEPLOY_HOOK }}
