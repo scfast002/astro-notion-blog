@@ -1,5 +1,7 @@
-English | [日本語](README.ja.md)
+原项目每次更新博客都需要手动重新部署，比较麻烦，我是个懒人，所以增加了一个每天12点自动更新博客部署的workflow.
 
+原项目介绍如下:
+﹉﹉﹉﹉﹉﹉﹉﹉
 # astro-notion-blog
 
 [![GitHub stars](https://img.shields.io/github/stars/otoyo/astro-notion-blog)](https://github.com/otoyo/astro-notion-blog/stargazers)
