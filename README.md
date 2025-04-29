@@ -3,8 +3,7 @@
 1. 原项目每次更新博客都需要手动重新部署，比较麻烦，我是个懒人，所以增加了一个每天12点自动更新博客部署的workflow.
 2. 原作者没有说明，但是注意notion中博客数据库slug的属性值必须填写，否则文章将无法显示。
 
-原项目介绍如下:
-
+# 原项目介绍如下:
 # astro-notion-blog
 
 [![GitHub stars](https://img.shields.io/github/stars/otoyo/astro-notion-blog)](https://github.com/otoyo/astro-notion-blog/stargazers)
@@ -107,13 +106,7 @@ See [wiki](https://github.com/otoyo/astro-notion-blog/wiki).
 
 ## :lady_beetle: Bug reports & feature requests
 
-To report an issue, please create a new Issue. You can use **either English or Japanese** to describe the issue. :wink:
-
-## :two_hearts: Sponsorship
-
-If you like astro-notion-blog, sponsor me so that I can keep on developing software. Thank you.
-
-[![GitHub sponsors](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/otoyo)
+To report an issue, please create a new Issue. You can use **either English or Chinese** to describe the issue. :wink:
 
 ---
 
