@@ -4,6 +4,7 @@
 2. 原作者没有说明，但是注意notion中博客数据库slug的属性值必须填写，否则文章将无法显示。
 
 # 原项目介绍如下:
+
 # astro-notion-blog
 
 [![GitHub stars](https://img.shields.io/github/stars/otoyo/astro-notion-blog)](https://github.com/otoyo/astro-notion-blog/stargazers)
